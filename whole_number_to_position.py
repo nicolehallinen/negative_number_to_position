@@ -43,7 +43,7 @@ config = num2pos.Config("Num2Pos(D+U)",
 
                         fixation_type='cross',
 
-                        post_response_target=True,         # After response was made, show the correct location (could be T or F)
+                        post_response_target=False,         # After response was made, show the correct location (could be T or F)
                         feedback_arrow_colors=[xpy.misc.constants.C_GREEN,
                                                xpy.misc.constants.C_EXPYRIMENT_ORANGE,
                                                xpy.misc.constants.C_RED],
