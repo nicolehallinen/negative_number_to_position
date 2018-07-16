@@ -34,7 +34,7 @@ config = num2pos.Config("Num2Pos(D+U)",
                         min_inst_speed=1,
                         max_movement_time=10, # Number of seconds for max response time
                         speed_guide_enabled=True,
-                        shuffle_trials=False,
+                        shuffle_trials=True,
                         max_offscreen_duration=1,
                         min_numberline_value=0, # Left endpoint of number line
                         max_numberline_value=10, # Right endpoint of number line
@@ -44,9 +44,9 @@ config = num2pos.Config("Num2Pos(D+U)",
                         fixation_type='cross',
 
                         post_response_target=False,         # After response was made, show the correct location (could be T or F)
-                        feedback_arrow_colors=[xpy.misc.constants.C_GREEN,
-                                               xpy.misc.constants.C_EXPYRIMENT_ORANGE,
-                                               xpy.misc.constants.C_RED],
+                        # feedback_arrow_colors=[xpy.misc.constants.C_GREEN,
+                        #                       xpy.misc.constants.C_EXPYRIMENT_ORANGE,
+                        #                       xpy.misc.constants.C_RED],
                         feedback_accuracy_levels=accuracy_levels,
                         # sound_by_accuracy=((accuracy_levels[0], 'feedback-accuracy-0.wav'),
                         #                    (accuracy_levels[1], 'feedback-accuracy-1.wav'),
