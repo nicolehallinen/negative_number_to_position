@@ -36,9 +36,9 @@ config = num2pos.Config("Num2Pos(D+U)",
                         speed_guide_enabled=True,
                         shuffle_trials=False,
                         max_offscreen_duration=1,
-                        min_numberline_value=-1, # Left endpoint of number line
-                        max_numberline_value=1, # Right endpoint of number line
-                        data_source="negative_number_to_position.csv",  # Read targets from this CSV file
+                        min_numberline_value=0, # Left endpoint of number line
+                        max_numberline_value=10000, # Right endpoint of number line
+                        data_source="whole_number_to_position.csv",  # Read targets from this CSV file
                         text_target_height=0.5,
 
                         fixation_type='cross',
@@ -72,7 +72,7 @@ exp_info = num2pos.ExperimentInfo(config, exp, subj_id, subj_name)
 num2pos.create_experiment_objects(exp_info)
 
 exp_info.text_target.onset_time = [0, 0.1]
-exp_info.text_target.duration = [0.1, 2]
+exp_info.text_target.duration = [10, 20]
 
 common.register_to_event_manager(exp_info)
 

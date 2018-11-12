@@ -1,0 +1,35 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Mon Jul 16 2018 12:57:27
+#sha1: fbb869
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11432,design,log,
+#design: #exp: whole_number_to_position
+#design: block_cnt,block_id,trial_cnt,trial_id
+11432,design,logged,
+11432,Experiment,started
+11446,Stimulus,presented,1
+11453,Stimulus,presented,1
+11468,Stimulus,presented,1
+11485,Stimulus,presented,2
+11862,TextInput,entered,
+11874,Stimulus,presented,2
+11882,Stimulus,presented,2
+11900,Stimulus,presented,2
+11915,Stimulus,presented,3
+12848,Stimulus,presented,3
+13192,Stimulus,presented,3
+13295,Stimulus,presented,3
+14310,TextInput,entered,p24
+14313,stderr,received,'Traceback (most recent call last):'
+14313,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\whole_number_to_position.py", line 72, in <module>'
+14314,stderr,received,'    num2pos.create_experiment_objects(exp_info)'
+14314,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 55, in create_experiment_objects'
+14315,stderr,received,'    create_numberline(exp_info)'
+14315,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 92, in create_numberline'
+14315,stderr,received,'    common.validate_config_param_type("max_numberline_value", Number, config.max_numberline_value)'
+14316,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_init.py", line 569, in validate_config_param_type'
+14317,stderr,received,'    raise ttrk.TypeError("config.{:} was set to a non-{:} value ({:})".format(param_name, type_name, param_value))'
+14317,stderr,received,'trajtracker.TypeError: TypeError: config.max_numberline_value was set to a non-number value (10,000)'

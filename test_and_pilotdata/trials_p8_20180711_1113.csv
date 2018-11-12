@@ -1,0 +1,9 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,2,-1.0,ERR_TooSlowInstantaneous,0,2.44,0.232,1.54,0.249,0:258,0,-1.0,-1.0,N/A
+2,3,-0.8,ERR_TooSlowInstantaneous,0,7.51,0.167,2.84,0.183,0:258,0,-0.8,-0.8,N/A
+3,4,-0.6,OK,2.11,14.6,0.266,2.7,0.283,0:258,0,-0.6,-0.6,-0.639
+4,5,-0.4,OK,1.72,22.1,0.15,2.18,0.168,0:258,0,-0.4,-0.4,-0.625
+5,6,-0.2,OK,2.22,59.3,0.166,2.7,0.184,0:258,0,-0.2,-0.2,-0.267
+6,7,0.0,OK,2.97,78.3,0.233,3.52,0.251,0:258,0,0.0,0.0,-0.0111
+7,8,0.2,ERR_TooSlowInstantaneous,0,105,0.165,0.773,0.183,0:258,0,0.2,0.2,N/A
+8,9,0.4,OK,1.38,107,0.181,1.86,0.2,0:258,0,0.4,0.4,0.369

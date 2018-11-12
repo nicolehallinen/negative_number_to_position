@@ -1,0 +1,39 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Jul 11 2018 12:47:49
+#sha1: b9e1dd
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11633,design,log,
+#design: #exp: whole_number_to_position
+#design: block_cnt,block_id,trial_cnt,trial_id
+11633,design,logged,
+11633,Experiment,started
+11650,Stimulus,presented,1
+11664,Stimulus,presented,1
+11682,Stimulus,presented,1
+11695,Stimulus,presented,2
+11975,Stimulus,presented,2
+12366,Stimulus,presented,2
+12642,Stimulus,presented,2
+13549,Stimulus,presented,2
+13627,Stimulus,presented,2
+14089,Stimulus,presented,2
+15035,TextInput,entered,pract8
+15047,Stimulus,presented,2
+15053,Stimulus,presented,2
+15062,Stimulus,presented,2
+15076,Stimulus,presented,3
+16176,Stimulus,presented,3
+16670,TextInput,entered,p8
+16673,stderr,received,'Traceback (most recent call last):'
+16673,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\whole_number_to_position.py", line 72, in <module>'
+16674,stderr,received,'    num2pos.create_experiment_objects(exp_info)'
+16674,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 55, in create_experiment_objects'
+16675,stderr,received,'    create_numberline(exp_info)'
+16675,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 92, in create_numberline'
+16675,stderr,received,'    common.validate_config_param_type("max_numberline_value", Number, config.max_numberline_value)'
+16676,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_init.py", line 569, in validate_config_param_type'
+16676,stderr,received,'    raise ttrk.TypeError("config.{:} was set to a non-{:} value ({:})".format(param_name, type_name, param_value))'
+16677,stderr,received,'trajtracker.TypeError: TypeError: config.max_numberline_value was set to a non-number value (10,000)'

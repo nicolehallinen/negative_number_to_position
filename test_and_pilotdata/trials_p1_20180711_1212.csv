@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,2,"9,158",OK,1.65,2.28,0.117,1.98,0.134,0:258,0,"9,158",9158,8.26e+03

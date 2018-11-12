@@ -1,0 +1,7 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,2,"9,158",OK,1.77,2.05,0.401,2.23,0.417,0:258,0,"9,158",9158,7.89e+03
+2,3,"4,782",OK,1.18,8,0.35,1.6,0.367,0:258,0,"4,782",4782,4.36e+03
+3,5,"1,751",OK,1.3,13.9,0.176,1.48,0.195,0:258,0,"1,751",1751,1.71e+03
+4,6,"5,312",OK,1.17,17.5,0.13,1.36,0.15,0:258,0,"5,312",5312,4.94e+03
+5,7,"8,074",ERR_FingerLifted,0,20.1,0.198,2.16,0.217,0:258,0,"8,074",8074,N/A
+6,8,"7,729",OK,0.931,23.7,0.151,1.38,0.169,0:258,0,"7,729",7729,2.35e+03

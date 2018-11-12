@@ -1,0 +1,42 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Jul 11 2018 12:44:16
+#sha1: f8cc57
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11558,design,log,
+#design: #exp: whole_number_to_position
+#design: block_cnt,block_id,trial_cnt,trial_id
+11558,design,logged,
+11558,Experiment,started
+11572,Stimulus,presented,1
+11579,Stimulus,presented,1
+11593,Stimulus,presented,1
+11607,Stimulus,presented,2
+12127,Stimulus,presented,2
+12190,Stimulus,presented,2
+12253,Stimulus,presented,2
+12431,Stimulus,presented,2
+12671,Stimulus,presented,2
+12786,Stimulus,presented,2
+12906,Stimulus,presented,2
+13292,Stimulus,presented,2
+13790,Stimulus,presented,2
+14340,TextInput,entered,practice5
+14352,Stimulus,presented,2
+14358,Stimulus,presented,2
+14375,Stimulus,presented,2
+14389,Stimulus,presented,3
+15428,Stimulus,presented,3
+15679,TextInput,entered,p5
+15681,stderr,received,'Traceback (most recent call last):'
+15682,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\whole_number_to_position.py", line 72, in <module>'
+15682,stderr,received,'    num2pos.create_experiment_objects(exp_info)'
+15683,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 55, in create_experiment_objects'
+15683,stderr,received,'    create_numberline(exp_info)'
+15684,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 92, in create_numberline'
+15684,stderr,received,'    common.validate_config_param_type("max_numberline_value", Number, config.max_numberline_value)'
+15685,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_init.py", line 569, in validate_config_param_type'
+15686,stderr,received,'    raise ttrk.TypeError("config.{:} was set to a non-{:} value ({:})".format(param_name, type_name, param_value))'
+15686,stderr,received,'trajtracker.TypeError: TypeError: config.max_numberline_value was set to a non-number value (  10,000)'

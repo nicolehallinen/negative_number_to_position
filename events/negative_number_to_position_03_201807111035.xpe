@@ -1,0 +1,65 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Jul 11 2018 10:35:24
+#sha1: ea4d71
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+27023,design,log,
+#design: #exp: negative_number_to_position
+#design: block_cnt,block_id,trial_cnt,trial_id
+27023,design,logged,
+27023,Experiment,started
+27036,Stimulus,presented,1
+27042,Stimulus,presented,1
+27063,Stimulus,presented,1
+27075,Stimulus,presented,2
+28437,Stimulus,presented,2
+29006,Stimulus,presented,2
+29156,Stimulus,presented,2
+29221,Stimulus,presented,2
+29474,Stimulus,presented,2
+29763,Stimulus,presented,2
+29904,Stimulus,presented,2
+30089,Stimulus,presented,2
+31091,Stimulus,presented,2
+31231,Stimulus,presented,2
+31360,Stimulus,presented,2
+32443,Stimulus,presented,2
+32853,Stimulus,presented,2
+32975,Stimulus,presented,2
+34205,TextInput,entered,practice
+34219,Stimulus,presented,2
+34226,Stimulus,presented,2
+34245,Stimulus,presented,2
+34256,Stimulus,presented,3
+35802,TextInput,entered,p
+35805,The finger landing position will be presented after each trial
+35806,stdout,received,'10:07:00.416: The finger landing position will be presented after each trial'
+35842,Stimulus,rotated,13, degree=0
+35847,target font size = 31, height = 36.0 pixels
+35847,stdout,received,'10:07:00.457: target font size = 31, height = 36.0 pixels'
+35871,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+35872,stdout,received,'10:07:00.482: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+35872,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+35873,stdout,received,'10:07:00.482: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+35874,====================== Starting trial #1 =====================
+35874,stdout,received,'10:07:00.484: ====================== Starting trial #1 ====================='
+35875,Stimulus,presented,12
+35875,Stimulus,presented,13
+35876,Dispatching event TRIAL_INITIALIZED, time_in_trial=0, time_in_session=0.00266953656683
+35877,stdout,received,'10:07:00.486: Dispatching event TRIAL_INITIALIZED, time_in_trial=0, time_in_session=0.00266953656683'
+35886,Stimulus,presented,12
+35886,Stimulus,presented,13
+35904,stderr,received,'Traceback (most recent call last):'
+35904,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\negative_number_to_position.py", line 80, in <module>'
+35905,stderr,received,'    num2pos.run_trials(exp_info)'
+35905,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 39, in run_trials'
+35906,stderr,received,'    return common.run_trials(exp_info, run_trial, TrialInfo)'
+35906,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_run.py", line 70, in run_trials'
+35907,stderr,received,'    run_trial_rc = run_one_trial_func(exp_info, trial_info_class(trial_num, trial_config, exp_info.config), next_trial_already_initiated)'
+35907,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 56, in run_trial'
+35908,stderr,received,'    initialize_trial(exp_info, trial)'
+35908,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 191, in initialize_trial'
+35908,stderr,received,'    trial.targets_t0 = u.get_time() - trial.start_time'
+35909,stderr,received,"TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'"
