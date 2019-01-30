@@ -1,0 +1,6 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,2,0.323,OK,1.7,1.38,0.27,1.97,0.285,0:258,0,0.323,0.323,0.301
+2,3,0.739,OK,0.901,4.25,0.2,1.13,0.218,0:258,0,0.739,0.739,0.772
+3,4,0.506,OK,0.798,6.41,0.22,1.07,0.234,0:258,0,0.506,0.506,0.492
+4,5,0.167,OK,0.867,8.26,0.202,1.11,0.219,0:258,0,0.167,0.167,0.122
+5,6,0.111,OK,0.918,10.4,0.233,1.22,0.253,0:258,0,0.111,0.111,0.0667

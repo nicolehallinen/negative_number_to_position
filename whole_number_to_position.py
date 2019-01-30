@@ -37,8 +37,8 @@ config = num2pos.Config("Num2Pos(D+U)",
                         shuffle_trials=False,
                         max_offscreen_duration=1,
                         min_numberline_value=0, # Left endpoint of number line
-                        max_numberline_value=10000, # Right endpoint of number line
-                        data_source="whole_number_to_position.csv",  # Read targets from this CSV file
+                        max_numberline_value=100000, # Right endpoint of number line
+                        data_source="whole_number_to_position_2019.csv",  # Read targets from this CSV file
                         text_target_height=0.5,
 
                         fixation_type='cross',

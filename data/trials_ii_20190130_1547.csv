@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,2,65321,ERR_TooSlowInstantaneous,0,3.74,0.202,1.26,0.218,0:258,0,65321,65321,N/A
