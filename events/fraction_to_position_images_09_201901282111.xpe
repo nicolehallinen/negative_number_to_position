@@ -1,0 +1,38 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Mon Jan 28 2019 21:11:44
+#sha1: 6efa7e
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10848,design,log,
+#design: #exp: fraction_to_position_images
+#design: block_cnt,block_id,trial_cnt,trial_id
+10848,design,logged,
+10848,Experiment,started
+10861,Stimulus,presented,1
+10868,Stimulus,presented,1
+10884,Stimulus,presented,1
+10900,Stimulus,presented,2
+11325,Stimulus,presented,2
+11547,Stimulus,presented,2
+11719,Stimulus,presented,2
+11930,TextInput,entered,aaa
+11943,Stimulus,presented,2
+11949,Stimulus,presented,2
+11975,Stimulus,presented,2
+11985,Stimulus,presented,3
+12502,TextInput,entered,a
+12506,The finger landing position will be presented after each trial
+12506,stdout,received,'21:01:56.552: The finger landing position will be presented after each trial'
+12551,Stimulus,rotated,12, degree=0
+12555,target font size = 38, height = 44.1 pixels
+12555,stdout,received,'21:01:56.601: target font size = 38, height = 44.1 pixels'
+12583,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12584,stdout,received,'21:01:56.630: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12584,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12585,stdout,received,'21:01:56.631: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12585,stderr,received,'Traceback (most recent call last):'
+12586,stderr,received,'  File "fraction_to_position_images.py", line 85, in <module>'
+12588,stderr,received,'    exp.stimuli.add(xpy.stimuli.Picture("./image1.png", "image1"))'
+12589,stderr,received,"AttributeError: 'Experiment' object has no attribute 'stimuli'"

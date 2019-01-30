@@ -1,0 +1,11 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Mon Jan 28 2019 21:09:28
+#sha1: 6cea71
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4370,stderr,received,'Traceback (most recent call last):'
+4372,stderr,received,'  File "fraction_to_position_images.py", line 63, in <module>'
+4378,stderr,received,'    exp.stimuli.add(xpy.stimuli.Picture("./image1.png", "image1"))'
+4380,stderr,received,"AttributeError: 'Experiment' object has no attribute 'stimuli'"

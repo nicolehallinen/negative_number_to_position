@@ -40,7 +40,7 @@ config = num2pos.Config("Num2Pos(D+U)",
                         max_offscreen_duration=1,
                         min_numberline_value=0, # Left endpoint of number line
                         max_numberline_value=1, # Right endpoint of number line
-                        data_source="fraction_to_position_images.csv",  # Read targets from this CSV file
+                        data_source="fraction_to_position_images_actual.csv",  # Read targets from this CSV file
     
 
                         fixation_type='cross',
@@ -72,8 +72,23 @@ if not xpy.misc.is_android_running():
 #-- Define stimuli
 
 stimuli = {
-    'image1': xpy.stimuli.Picture("./image1.png")
+    '1_6': xpy.stimuli.Picture("./fractions/1_6.png"),
+    '1_9': xpy.stimuli.Picture("./fractions/1_9.png"),
+    '3_8': xpy.stimuli.Picture("./fractions/3_8.png"),
+    '4_5': xpy.stimuli.Picture("./fractions/4_5.png"),
+    '7_15': xpy.stimuli.Picture("./fractions/7_15.png"),
+    '10_13': xpy.stimuli.Picture("./fractions/10_13.png"),
+    '10_19': xpy.stimuli.Picture("./fractions/10_19.png"),
+    '11_12': xpy.stimuli.Picture("./fractions/11_12.png"),
+    '1_17': xpy.stimuli.Picture("./fractions/1_17.png"),
+    '11_35': xpy.stimuli.Picture("./fractions/11_35.png"),
+    '16_25': xpy.stimuli.Picture("./fractions/16_25.png"),
+    '28_109': xpy.stimuli.Picture("./fractions/28_109.png"),
+    '120_553': xpy.stimuli.Picture("./fractions/120_553.png"),
+    '291_491': xpy.stimuli.Picture("./fractions/291_491.png"),
+    '703_891': xpy.stimuli.Picture("./fractions/703_891.png"),
 }
+    
 
 
 #-- Initialize the experiment objects
@@ -86,7 +101,7 @@ num2pos.create_experiment_objects(exp_info)
 
 common.register_to_event_manager(exp_info)
 
-#-- Create Stimuli
+#-- Use defined generic Stimuli
 
 exp_info.generic_target.available_stimuli = stimuli
 

@@ -1,0 +1,60 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Mon Jan 28 2019 21:16:27
+#sha1: af2818
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10834,design,log,
+#design: #exp: fraction_to_position_images
+#design: block_cnt,block_id,trial_cnt,trial_id
+10834,design,logged,
+10834,Experiment,started
+10848,Stimulus,presented,1
+10853,Stimulus,presented,1
+10874,Stimulus,presented,1
+10887,Stimulus,presented,2
+11395,Stimulus,presented,2
+11668,Stimulus,presented,2
+12035,TextInput,entered,aa
+12047,Stimulus,presented,2
+12053,Stimulus,presented,2
+12073,Stimulus,presented,2
+12087,Stimulus,presented,3
+12546,TextInput,entered,a
+12549,The finger landing position will be presented after each trial
+12550,stdout,received,'21:01:40.305: The finger landing position will be presented after each trial'
+12587,Stimulus,rotated,12, degree=0
+12591,target font size = 38, height = 44.1 pixels
+12592,stdout,received,'21:01:40.347: target font size = 38, height = 44.1 pixels'
+12619,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12620,stdout,received,'21:01:40.375: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12620,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12621,stdout,received,'21:01:40.376: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12623,====================== Starting trial #1 =====================
+12623,stdout,received,'21:01:40.378: ====================== Starting trial #1 ====================='
+12624,Stimulus,presented,11
+12624,Stimulus,presented,12
+12626,Picture,loaded,./image1.png
+12629,stderr,received,'Traceback (most recent call last):'
+12630,stderr,received,'  File "fraction_to_position_images.py", line 88, in <module>'
+12635,stderr,received,'    num2pos.run_trials(exp_info)'
+12636,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 39, in run_trials'
+12637,stderr,received,'    return common.run_trials(exp_info, run_trial, TrialInfo)'
+12638,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_run.py", line 70, in run_trials'
+12640,stderr,received,'    run_trial_rc = run_one_trial_func(exp_info, trial_info_class(trial_num, trial_config, exp_info.config), next_trial_already_initiated)'
+12641,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 56, in run_trial'
+12644,stderr,received,'    initialize_trial(exp_info, trial)'
+12645,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 176, in initialize_trial'
+12646,stderr,received,'    exp_info.stimuli.present()  # reset the display'
+12647,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\stimuli\\_StimulusContainer.py", line 80, in present'
+12648,stderr,received,"    duration = visible_stims[i]['stimulus'].present(clear=False, update=False)"
+12650,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1028, in present'
+12652,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+12654,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 917, in preload'
+12656,stderr,received,'    position=self.position)'
+12657,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 67, in __init__'
+12657,stderr,received,'    self.refresh_position()'
+12658,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 99, in refresh_position'
+12660,stderr,received,'    self._position[0],'
+12662,stderr,received,"TypeError: unsupported operand type(s) for +: 'int' and 'str'"

@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,genstim.position.x,genstim.target,v.position,target,endPoint
+1,2,1_6,OK,3.36,1.95,0.302,3.75,0.319,0,1_6,,0.167,0.176

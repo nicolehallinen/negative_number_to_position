@@ -1,0 +1,69 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Jan 30 2019 14:44:58
+#sha1: 14f97f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11098,design,log,
+#design: #exp: fraction_to_position_images
+#design: block_cnt,block_id,trial_cnt,trial_id
+11098,design,logged,
+11098,Experiment,started
+11113,Stimulus,presented,1
+11121,Stimulus,presented,1
+11141,Stimulus,presented,1
+11157,Stimulus,presented,2
+11540,Stimulus,presented,2
+11690,Stimulus,presented,2
+11889,TextInput,entered,ff
+11902,Stimulus,presented,2
+11908,Stimulus,presented,2
+11926,Stimulus,presented,2
+11943,Stimulus,presented,3
+12347,TextInput,entered,f
+12350,The finger landing position will be presented after each trial
+12351,stdout,received,'14:01:10.572: The finger landing position will be presented after each trial'
+12393,Stimulus,rotated,13, degree=0
+12398,target font size = 38, height = 44.1 pixels
+12399,stdout,received,'14:01:10.620: target font size = 38, height = 44.1 pixels'
+12427,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12427,stdout,received,'14:01:10.649: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12427,WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions
+12428,stdout,received,'14:01:10.649: WARNING: function enable_event is deprecated and may be removed in next TrajTracker versions'
+12429,Picture,loaded,./fractions/1_6.png
+12432,Picture,loaded,./fractions/1_6.png
+12434,====================== Starting trial #1 =====================
+12435,stdout,received,'14:01:10.656: ====================== Starting trial #1 ====================='
+12435,Stimulus,presented,12
+12435,Stimulus,presented,13
+12437,MultiStimulus,WARNING: shown_stimuli includes unknown stimulus IDs: 7_15
+12438,stdout,received,'14:01:10.659: MultiStimulus,WARNING: shown_stimuli includes unknown stimulus IDs: 7_15'
+12438,Dispatching event TRIAL_INITIALIZED, time_in_trial=0, time_in_session=0.0034954858711
+12438,stdout,received,'14:01:10.660: Dispatching event TRIAL_INITIALIZED, time_in_trial=0, time_in_session=0.0034954858711'
+12440,stderr,received,'Traceback (most recent call last):'
+12441,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\fraction_to_position_images.py", line 109, in <module>'
+12441,stderr,received,'    num2pos.run_trials(exp_info)'
+12442,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 39, in run_trials'
+12442,stderr,received,'    return common.run_trials(exp_info, run_trial, TrialInfo)'
+12443,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\common\\_common_funcs_run.py", line 70, in run_trials'
+12443,stderr,received,'    run_trial_rc = run_one_trial_func(exp_info, trial_info_class(trial_num, trial_config, exp_info.config), next_trial_already_initiated)'
+12443,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 56, in run_trial'
+12444,stderr,received,'    initialize_trial(exp_info, trial)'
+12444,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_run.py", line 185, in initialize_trial'
+12447,stderr,received,'    exp_info.event_manager.dispatch_event(ttrk.events.TRIAL_INITIALIZED, 0, u.get_time() - exp_info.session_start_time)'
+12447,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\events\\_EventManager.py", line 108, in dispatch_event'
+12449,stderr,received,'    self._dispatch_event(event, time_in_trial, time_in_session)'
+12449,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\events\\_EventManager.py", line 140, in _dispatch_event'
+12450,stderr,received,'    self._invoke_operation(op_info.operation_id, time_in_trial, time_in_session)'
+12450,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\events\\_EventManager.py", line 347, in _invoke_operation'
+12452,stderr,received,'    op_info.function(time_in_trial, time_in_session)'
+12452,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\stimuli\\_BaseMultiStim.py", line 188, in <lambda>'
+12454,stderr,received,'    operation=lambda t1, t2: self._init_trial_events(),'
+12455,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\stimuli\\_BaseMultiStim.py", line 203, in _init_trial_events'
+12457,stderr,received,'    self._configure_and_preload()'
+12458,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\stimuli\\_MultiStimulus.py", line 74, in _configure_and_preload'
+12462,stderr,received,'    self._validate()'
+12463,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\stimuli\\_MultiStimulus.py", line 93, in _validate'
+12464,stderr,received,'    ", ".join(missing_pics)))'
+12466,stderr,received,'trajtracker.ValueError: ValueError: shown_stimuli includes unknown stimulus IDs: 7_15'

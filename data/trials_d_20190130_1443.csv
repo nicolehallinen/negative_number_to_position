@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,genstim.position.x,genstim.target,v.position,target,endPoint
+1,14,120_553,ERR_TooSlowInstantaneous,0,1.46,0.25,3.19,0.267,0,120_553,,0.217,N/A

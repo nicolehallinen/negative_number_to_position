@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,genstim.position.x,genstim.target,v.position,target,endPoint
+1,2,"text=""0.5"";generic=""image1""",OK,0.667,2.59,0.213,1.18,0.231,0,image1,,0.5,0.539

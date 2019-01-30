@@ -1,0 +1,9 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,genstim.position.x,genstim.target,v.position,target,endPoint
+1,2,"text=""0.5"";generic=""image1""",ERR_TooSlowInstantaneous,0,1.56,0.183,1.94,0.201,0,image1,,0.5,N/A
+2,2,"text=""0.5"";generic=""image1""",ERR_TooSlowInstantaneous,0,5.62,0.181,1.64,0.2,0,image1,,0.5,N/A
+3,2,"text=""0.5"";generic=""image1""",ERR_TooSlowGlobal,0,8.69,0.164,3.79,0.183,0,image1,,0.5,N/A
+4,2,"text=""0.5"";generic=""image1""",ERR_TooSlowGlobal,0,17.2,0.132,7.47,0.15,0,image1,,0.5,N/A
+5,2,"text=""0.5"";generic=""image1""",ERR_TooSlowGlobal,0,27.7,0.314,5.5,0.333,0,image1,,0.5,N/A
+6,2,"text=""0.5"";generic=""image1""",ERR_TooSlowInstantaneous,0,56.7,0.2,0.535,0.219,0,image1,,0.5,N/A
+7,2,"text=""0.5"";generic=""image1""",ERR_TooSlowInstantaneous,0,59.4,0.182,0.583,0.201,0,image1,,0.5,N/A
+8,2,"text=""0.5"";generic=""image1""",OK,0.985,61.6,0.18,1.48,0.2,0,image1,,0.5,0.506
