@@ -36,11 +36,11 @@ config = num2pos.Config("Num2Pos(D+U)",
                         min_inst_speed=1,
                         max_movement_time=10, # Number of seconds for max response time
                         speed_guide_enabled=True,
-                        shuffle_trials=True,
+                        shuffle_trials=False,
                         max_offscreen_duration=1,
                         min_numberline_value=0, # Left endpoint of number line
                         max_numberline_value=1, # Right endpoint of number line
-                        data_source="fraction_to_position_images_actual.csv",  # Read targets from this CSV file
+                        data_source="fraction_to_position_2019.csv",  # Read targets from this CSV file
     
 
                         fixation_type='cross',

@@ -1,0 +1,15 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Apr 17 2019 12:34:52
+#sha1: 1154f6
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+7008,stderr,received,'Traceback (most recent call last):'
+7008,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\whole_number_to_position.py", line 60, in <module>'
+7009,stderr,received,'    xpy.control.start(exp)'
+7010,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 179, in start'
+7011,stderr,received,'    experiment.events.rename(experiment.events.standard_file_name)'
+7011,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\expyriment\\io\\_files.py", line 308, in rename'
+7012,stderr,received,'    os.rename(self._fullpath, new_fullpath)'
+7012,stderr,received,'WindowsError: [Error 183] Cannot create a file when that file already exists'

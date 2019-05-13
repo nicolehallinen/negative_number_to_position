@@ -1,0 +1,2 @@
+trialNum,LineNum,presentedTarget,status,movementTime,timeInSession,timeUntilFingerMoved,timeUntilFingerLifted,timeUntilTarget,text.position,text.position.x,text.target,target,endPoint
+1,9,8,ERR_FingerLifted,0,24.8,2.88,10.8,2.9,0:258,0,8,8,N/A

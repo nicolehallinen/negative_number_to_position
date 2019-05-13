@@ -1,0 +1,41 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Thu Jan 31 2019 11:11:15
+#sha1: d65dce
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+16351,design,log,
+#design: #exp: fraction_to_position_images
+#design: block_cnt,block_id,trial_cnt,trial_id
+16351,design,logged,
+16351,Experiment,started
+16365,Stimulus,presented,1
+16371,Stimulus,presented,1
+16383,Stimulus,presented,1
+16397,Stimulus,presented,2
+18743,Stimulus,presented,2
+19020,Stimulus,presented,2
+19295,Stimulus,presented,2
+19445,Stimulus,presented,2
+19910,TextInput,entered,asia
+19923,Stimulus,presented,2
+19930,Stimulus,presented,2
+19952,Stimulus,presented,2
+19964,Stimulus,presented,3
+20281,Stimulus,presented,3
+20998,Stimulus,presented,3
+21722,Stimulus,presented,3
+22320,TextInput,entered,av
+22322,stderr,received,'Traceback (most recent call last):'
+22323,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\fraction_to_position_images.py", line 97, in <module>'
+22323,stderr,received,'    num2pos.create_experiment_objects(exp_info)'
+22324,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 53, in create_experiment_objects'
+22324,stderr,received,'    load_data_source(exp_info)'
+22324,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 245, in load_data_source'
+22325,stderr,received,'    exp_info.trials, fieldnames = loader.load_file(ds)'
+22325,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\io\\_CSVLoader.py", line 87, in load_file'
+22326,stderr,received,'    rows, fieldnames = self._read_data_from_file(filename)'
+22326,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\io\\_CSVLoader.py", line 106, in _read_data_from_file'
+22326,stderr,received,'    fp = open(filename)'
+22327,stderr,received,"IOError: [Errno 2] No such file or directory: 'fraction_to_position_images_actual.csv'"

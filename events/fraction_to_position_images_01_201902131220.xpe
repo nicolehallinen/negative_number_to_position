@@ -1,0 +1,39 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Wed Feb 13 2019 12:20:32
+#sha1: d65dce
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'EDU-JBOOTH-MOB', '10', '10.0.17134', 'AMD64', 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11428,design,log,
+#design: #exp: fraction_to_position_images
+#design: block_cnt,block_id,trial_cnt,trial_id
+11428,design,logged,
+11429,Experiment,started
+11442,Stimulus,presented,1
+11449,Stimulus,presented,1
+11458,Stimulus,presented,1
+11472,Stimulus,presented,2
+12481,Stimulus,presented,2
+12579,Stimulus,presented,2
+12654,Stimulus,presented,2
+13219,TextInput,entered,201
+13231,Stimulus,presented,2
+13238,Stimulus,presented,2
+13257,Stimulus,presented,2
+13272,Stimulus,presented,3
+13544,Stimulus,presented,3
+14086,Stimulus,presented,3
+14332,TextInput,entered,a
+14339,stderr,received,'Traceback (most recent call last):'
+14339,stderr,received,'  File "C:\\Users\\stemlab\\Documents\\GitHub\\tft\\fraction_to_position_images.py", line 97, in <module>'
+14340,stderr,received,'    num2pos.create_experiment_objects(exp_info)'
+14341,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 53, in create_experiment_objects'
+14341,stderr,received,'    load_data_source(exp_info)'
+14342,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtrackerp\\num2pos\\_n2p_init.py", line 245, in load_data_source'
+14342,stderr,received,'    exp_info.trials, fieldnames = loader.load_file(ds)'
+14343,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\io\\_CSVLoader.py", line 87, in load_file'
+14343,stderr,received,'    rows, fieldnames = self._read_data_from_file(filename)'
+14343,stderr,received,'  File "C:\\Python27\\lib\\site-packages\\trajtracker\\io\\_CSVLoader.py", line 106, in _read_data_from_file'
+14344,stderr,received,'    fp = open(filename)'
+14344,stderr,received,"IOError: [Errno 2] No such file or directory: 'fraction_to_position_images_actual.csv'"

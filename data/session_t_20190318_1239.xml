@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+  <source>
+    <software name="TrajTracker" version="1.1.1" />
+    <paradigm name="NL" />
+    <experiment name="Num2Pos(D+U)" />
+  </source>
+  <subject expyriment_id="220" id="t">
+    <name>220</name>
+  </subject>
+  <session start_time="2019-03-18 12:39:46">
+    <exp_level_results>
+      <data name="WindowWidth" type="number" value="800" />
+      <data name="NLMaxValue" type="number" value="1" />
+      <data name="NLMinValue" type="number" value="0" />
+      <data name="NLLength" type="number" value="720" />
+      <data name="nTrialsFailed" type="number" value="1" />
+      <data name="nTrialsSucceeded" type="number" value="44" />
+      <data name="TrajPixelsPerUnit" type="number" value="1" />
+      <data name="nTrialsCompleted" type="number" value="45" />
+      <data name="NLDistanceFromTop" type="number" value="80" />
+      <data name="TrajZeroCoordX" type="number" value="0" />
+      <data name="TrajZeroCoordY" type="number" value="-270.000000" />
+      <data name="nExpectedTrials" type="number" value="45" />
+      <data name="WindowHeight" type="number" value="600" />
+      <data name="ShowFeedback" type="number" value="1" />
+    </exp_level_results>
+    <files>
+      <file name="trials_t_20190318_1239.csv" type="trials" />
+      <file name="trajectory_t_20190318_1239.csv" type="trajectory" />
+    </files>
+  </session>
+</data>
