@@ -4,6 +4,8 @@
 #e mainfile: practice_to_position.py
 #e sha1: 2bd5ec
 #e modules: 
+#e Experiment: practice_to_position
+#e no between subject factors
 #--SUBJECT INFO
 #s id: 264
-##
+subject_id,
